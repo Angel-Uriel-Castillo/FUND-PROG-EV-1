@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="uriel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 05:48:55 p. m."/>
+        <attribute name="created" value="dXJpZWw7REVTS1RPUC03QTVFSDA1OzIwMjMtMDktMDQ7MDU6MTA6MTEgcC4gbS47MzAwMw=="/>
+        <attribute name="edited" value="dXJpZWw7REVTS1RPUC03QTVFSDA1OzIwMjMtMDktMDQ7MDU6NDg6NTUgcC4gbS47MTszMTMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mensaje" type="String" array="False" size=""/>
+            <assign variable="mensaje" expression="&quot;hola mundo&quot;"/>
+            <output expression="mensaje" newline="True"/>
+            <output expression="&quot;otro texto&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
