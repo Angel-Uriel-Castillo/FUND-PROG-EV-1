@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="uriel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-12 05:16:37 p. m."/>
+        <attribute name="created" value="dXJpZWw7REVTS1RPUC03QTVFSDA1OzIwMjMtMDktMTI7MDU6MDI6MTcgcC4gbS47MzAwOQ=="/>
+        <attribute name="edited" value="dXJpZWw7REVTS1RPUC03QTVFSDA1OzIwMjMtMDktMTI7MDU6MTY6MzcgcC4gbS47NzszMTMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base" type="Real" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;pon la altura&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;pon la base&quot;" newline="True"/>
+            <input variable="base"/>
+            <assign variable="area" expression="(base * altura) / 2"/>
+            <output expression="&quot;el area es&quot;" newline="True"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
